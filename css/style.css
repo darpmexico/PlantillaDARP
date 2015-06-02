@@ -154,21 +154,26 @@
 		section > :last-child,
 		article > :last-child
 		{
-			margin-bottom: 0;
+			margin-bottom: 2em;
 		}
 
 		section:last-child,
 		article:last-child
 		{
-			margin-bottom: 0;
+			margin-bottom: 2em;
 		}
 
 		.row > section,
 		.row > article
 		{
 			margin-bottom: 0;
+		
 		}
 
+		.definition
+		{
+			padding-top: 20px;
+		}
 	/* Images */
 
 		.image
@@ -179,7 +184,8 @@
 			.image img
 			{
 				display: block;
-				width: 100%;
+				width: 263px;
+				height: 200px;
 				border-radius: 6px;
 			}
 
@@ -193,7 +199,8 @@
 			.image.full
 			{
 				display: block;
-				width: 100%;
+				width: 263px;
+				height: 200px;
 				margin: 0 0 2em 0;
 			}
 			
